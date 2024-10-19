@@ -72,7 +72,16 @@ System.out.println(iguales ? "las palabras son iguales" : "las palabras son dist
 /*
 Haz un programa que concatene dos cadenas dadas por el usuario y las muestre en una sola línea. Usa tanto el operador + como el método concat(). */
     
+System.out.print("Ingresa una cadena: ");
+String cadena1 = teclado.nextLine();
 
+System.out.print("Ingresa otra cadena: ");
+
+String cadena2 = teclado.nextLine();
+
+System.out.println(cadena1.concat(" ").concat(cadena2));
+
+System.out.println(cadena1 + " " +cadena2);
 
 
 }
