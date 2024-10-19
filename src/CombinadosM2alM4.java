@@ -15,12 +15,12 @@ public class CombinadosM2alM4 {
      * Calculadora de Promedio:
      */
 
-      System.out.print("Ingrese un numero en grados Celsius para su conversion en Fahrenheit: ");
-       double celsius = teclado.nextDouble();
+      // System.out.print("Ingrese un numero en grados Celsius para su conversion en Fahrenheit: ");
+      //  double celsius = teclado.nextDouble();
 
-       double fahrenheit = (celsius * 1.8) + 32;
+      //  double fahrenheit = (celsius * 1.8) + 32;
 
-       System.out.println(celsius + " Celsius son " + fahrenheit + " fahrenheit");
+      //  System.out.println(celsius + " Celsius son " + fahrenheit + " fahrenheit");
 
 
     /*
@@ -31,25 +31,25 @@ public class CombinadosM2alM4 {
      * 
      */
 
-      System.out.print("ingrese primera nota de 0 al 10: ");
-      int nota1 = teclado.nextInt();
+      // System.out.print("ingrese primera nota de 0 al 10: ");
+      // int nota1 = teclado.nextInt();
 
-      System.out.print("Ingresa segunda nota de 0 al 10: ");
-      int nota2 = teclado.nextInt();
+      // System.out.print("Ingresa segunda nota de 0 al 10: ");
+      // int nota2 = teclado.nextInt();
 
-      System.out.print("Ingrese tercera nota de 0 al 10: ");
-      int nota3 = teclado.nextInt();
-      teclado.nextLine();
+      // System.out.print("Ingrese tercera nota de 0 al 10: ");
+      // int nota3 = teclado.nextInt();
+      // teclado.nextLine();
       
-      int promedio = (nota1 + nota2 + nota3)/3;
+      // int promedio = (nota1 + nota2 + nota3)/3;
 
-      String mensaje = "La nota final es %d";
+      // String mensaje = "La nota final es %d";
 
-      String resultadoMensaje = String.format(mensaje,promedio);
+      // String resultadoMensaje = String.format(mensaje,promedio);
 
-      String mensajeFinal = promedio >= 6 ? resultadoMensaje.concat(" alumno aprobado") : resultadoMensaje.concat(" alumno desaprobado");
+      // String mensajeFinal = promedio >= 6 ? resultadoMensaje.concat(" alumno aprobado") : resultadoMensaje.concat(" alumno desaprobado");
 
-      System.out.println(mensajeFinal);
+      // System.out.println(mensajeFinal);
 
 
     /*
@@ -58,19 +58,19 @@ public class CombinadosM2alM4 {
      */
 
 
-      System.out.println("Ingresa una cadena de String: ");
-      String primerCadena = teclado.nextLine();
-      System.out.println("Ingresa segunda cadena de String: ");
-      String segundaCadena = teclado.nextLine();
+      // System.out.println("Ingresa una cadena de String: ");
+      // String primerCadena = teclado.nextLine();
+      // System.out.println("Ingresa segunda cadena de String: ");
+      // String segundaCadena = teclado.nextLine();
 
-      String mensaje1 = String.format("%s %s", primerCadena, segundaCadena);
+      // String mensaje1 = String.format("%s %s", primerCadena, segundaCadena);
 
-      String mensaje2 = primerCadena.concat(" ").concat(segundaCadena);
+      // String mensaje2 = primerCadena.concat(" ").concat(segundaCadena);
       
-      System.out.println(mensaje1.toUpperCase());
-      System.out.println(mensaje1.toLowerCase());
-      System.out.println(mensaje2.toUpperCase());
-      System.out.println(mensaje2.toLowerCase());
+      // System.out.println(mensaje1.toUpperCase());
+      // System.out.println(mensaje1.toLowerCase());
+      // System.out.println(mensaje2.toUpperCase());
+      // System.out.println(mensaje2.toLowerCase());
 
 
     /*
@@ -80,23 +80,23 @@ public class CombinadosM2alM4 {
          Imprime el conteo de cada uno.
      */
 
-      int positivosNum = 0;
-      int negativoNum = 0;
-      int cero = 0;
+      // int positivosNum = 0;
+      // int negativoNum = 0;
+      // int cero = 0;
 
-      System.out.print("Ingresa un numero: ");
-      int num1 = teclado.nextInt();
-      System.out.print("Ingresa un segundo numero: ");
-      int num2 = teclado.nextInt();
-      System.out.print("Ingresa un tercer numero: ");
-      int num3 = teclado.nextInt();
-      teclado.nextLine();
-      int casos = num1 > 0 ? positivosNum++ : num1 < 0 ? negativoNum++ : cero++;
-      casos = num2 > 0 ? positivosNum++ : num2 < 0 ? negativoNum++ : cero++;
-      casos = num3 > 0 ? positivosNum++ : num3 < 0 ? negativoNum++ : cero++;
+      // System.out.print("Ingresa un numero: ");
+      // int num1 = teclado.nextInt();
+      // System.out.print("Ingresa un segundo numero: ");
+      // int num2 = teclado.nextInt();
+      // System.out.print("Ingresa un tercer numero: ");
+      // int num3 = teclado.nextInt();
+      // teclado.nextLine();
+      // int casos = num1 > 0 ? positivosNum++ : num1 < 0 ? negativoNum++ : cero++;
+      // casos = num2 > 0 ? positivosNum++ : num2 < 0 ? negativoNum++ : cero++;
+      // casos = num3 > 0 ? positivosNum++ : num3 < 0 ? negativoNum++ : cero++;
 
-      System.out.printf("La cantidad de numeros positivos es de %d , de numeros negativos es de %d y numeros cero es de %s", positivosNum, negativoNum, cero);
-      System.out.println();
+      // System.out.printf("La cantidad de numeros positivos es de %d , de numeros negativos es de %d y numeros cero es de %s", positivosNum, negativoNum, cero);
+      // System.out.println();
     /*
     * Calculadora Básica:
      * Crea un programa que le pida al usuario dos números y una operación (suma,
@@ -106,23 +106,23 @@ public class CombinadosM2alM4 {
      * Generador de Contraseñas:
      * 
      */
-      System.out.print("Ingresa un numero: ");
-      int valor1 = teclado.nextInt();
-      System.out.print("Ingresa un segundo numero: ");
-      int valor2 = teclado.nextInt();
-      teclado.nextLine();
-      System.out.println("ingrese una operacion: 'suma' , 'resta' , 'multiplicacion' o 'division': ");
-      String operacion = teclado.nextLine();
+      // System.out.print("Ingresa un numero: ");
+      // int valor1 = teclado.nextInt();
+      // System.out.print("Ingresa un segundo numero: ");
+      // int valor2 = teclado.nextInt();
+      // teclado.nextLine();
+      // System.out.println("ingrese una operacion: 'suma' , 'resta' , 'multiplicacion' o 'division': ");
+      // String operacion = teclado.nextLine();
        
-      int resultado1 = operacion.equalsIgnoreCase("suma") ? valor1 + valor2 : operacion.equalsIgnoreCase("resta") ? valor1 - valor2 : 
-      operacion.equalsIgnoreCase("multiplicacion") ? valor1 * valor2 : operacion.equalsIgnoreCase("division") ? valor1 / valor2 : 0;
+      // int resultado1 = operacion.equalsIgnoreCase("suma") ? valor1 + valor2 : operacion.equalsIgnoreCase("resta") ? valor1 - valor2 : 
+      // operacion.equalsIgnoreCase("multiplicacion") ? valor1 * valor2 : operacion.equalsIgnoreCase("division") ? valor1 / valor2 : 0;
 
-      String resultadoFinal1 = resultado1 != 0 ? String.format("el resultado de la %s es igual a %d", operacion,resultado1 ) : "La operacion no es valida"; 
+      // String resultadoFinal1 = resultado1 != 0 ? String.format("el resultado de la %s es igual a %d", operacion,resultado1 ) : "La operacion no es valida"; 
 
 
-      System.out.println(resultadoFinal1);
+      // System.out.println(resultadoFinal1);
 
-      teclado.close();
+      // teclado.close();
 
     /*
      * Solicita al usuario que ingrese una palabra clave y una longitud deseada para
@@ -131,6 +131,9 @@ public class CombinadosM2alM4 {
      * el resto con caracteres aleatorios hasta alcanzar la longitud especificada.
      * Palabras Palíndromas:
      */
+
+      
+
 
     /*
      * Pide al usuario que ingrese una palabra y verifica si es un palíndromo

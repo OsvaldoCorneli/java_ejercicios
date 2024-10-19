@@ -1,11 +1,42 @@
 Preguntas Teóricas de Java
-¿Qué es una variable en Java y cuáles son los tipos de datos primitivos?
 
-Explica la diferencia entre int, double y String. ¿Cuándo usarías cada uno?
 
-¿Qué es un operador ternario y cómo se utiliza en Java? Proporciona un ejemplo.
+1)¿Qué es una variable en Java y cuáles son los tipos de datos primitivos?
 
-¿Cuál es la estructura básica de una clase en Java? Describe los componentes esenciales de una clase.
+Las variables es un espacio en la memoria donde se almacena algun dato, cuando declaramos una variable, le estamos reservando un espacio a esa variable en la memoria.
+almacenamos el dato asignandolo en la misma declaracion o despues a traves del simbolo de asignacion =(igual).
+
+los tipos de datos nativos en java son 8
+
+int: este tipo de datos almacena enteros
+float: este tipo de datos almacena numeros decimales hasta un cierto punto
+double: este tipo de datos tambien almacena decimales pero de mayor digito
+char: este tipo de datos almacena una letra o numeros(los numeros representan el caracter)
+long: este tipo de datos almacena una mayor cantidad de digitos
+booleano: este almacena true o false.
+luego estan
+byte y short que tambien como long almacenan una cantidad de numeros con ciertos digitos, la verdad estos los google, pero entiendo que son para que por ejemplo
+voy a almacenar numeros chicos no utilizar int ya que este reserva un numero mas grande en la memoria y no lo hace tan eficiente.
+
+
+2)Explica la diferencia entre int, double y String. ¿Cuándo usarías cada uno?
+
+int es un tipo de variable donde almacenas enteros , double almacena numeros decimales y String es una clase que almacena cadenas de caracteres.
+
+
+3)¿Qué es un operador ternario y cómo se utiliza en Java? Proporciona un ejemplo.
+
+un operador ternario es un metodo para comparar hacer mas que nada condiciones donde tiene 3 etapas
+
+"se hace la comparacion" (esta comparacion devuelve true o false) si despues true se genera un bloque con "?" dentro se puede hacer una operacion no muy compleja y luego imitando el 
+else se debe utilizar los ":", dato a tener en cuenta es que no puede estar vacio el bloque del :
+ 
+
+4) ¿Cuál es la estructura básica de una clase en Java? Describe los componentes esenciales de una clase.
+
+
+
+
 
 ¿Qué son las estructuras de control de flujo y cuáles son las más comunes en Java? Proporciona un ejemplo de cada una.
 
