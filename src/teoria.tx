@@ -1,0 +1,20 @@
+Preguntas Teóricas de Java
+¿Qué es una variable en Java y cuáles son los tipos de datos primitivos?
+
+Explica la diferencia entre int, double y String. ¿Cuándo usarías cada uno?
+
+¿Qué es un operador ternario y cómo se utiliza en Java? Proporciona un ejemplo.
+
+¿Cuál es la estructura básica de una clase en Java? Describe los componentes esenciales de una clase.
+
+¿Qué son las estructuras de control de flujo y cuáles son las más comunes en Java? Proporciona un ejemplo de cada una.
+
+¿Cómo se realiza la entrada y salida de datos en Java? Menciona al menos dos métodos para leer datos del usuario.
+
+¿Qué es un método en Java y cómo se define? Explica la diferencia entre un método estático y un método de instancia.
+
+¿Qué es una cadena de texto (String) en Java y cuáles son algunas de las operaciones que se pueden realizar con ella?
+
+¿Qué es el formato de cadenas en Java y cómo se utiliza? Proporciona un ejemplo de uso.
+
+¿Cuál es la diferencia entre == y equals() cuando se comparan objetos en Java?
