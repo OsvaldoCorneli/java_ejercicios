@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class CombinadosM2alM4 {
 
@@ -131,8 +132,8 @@ public class CombinadosM2alM4 {
      * el resto con caracteres aleatorios hasta alcanzar la longitud especificada.
      * Palabras Palíndromas:
      */
+  ;
 
-      
 
 
     /*
