@@ -50,8 +50,7 @@ public class Ejercicios2 {
         // System.out.println("Nota ingresada incorrecta");
         // }
 
-        // System.out.println("ingrese 9 para salir cualquier otro numero para
-        // continuar: ");
+        // System.out.println("ingrese 9 para salir cualquier otro numero para continuar: ");
         // opcion = teclado.nextInt();
         // teclado.nextLine();
         // }while(opcion != 9);
@@ -63,112 +62,114 @@ public class Ejercicios2 {
          * iguales.
          */
 
-        System.out.print("Ingrese primer numero entero: ");
-        int numero1 = teclado.nextInt();
-        System.out.print("Ingrese primer numero entero: ");
-        int numero2 = teclado.nextInt();
-        System.out.print("Ingrese primer numero entero: ");
-        int numero3 = teclado.nextInt();
-        teclado.nextLine();
-        boolean bandera = false;
+        // System.out.print("Ingrese primer numero entero: ");
+        // int numero1 = teclado.nextInt();
+        // System.out.print("Ingrese primer numero entero: ");
+        // int numero2 = teclado.nextInt();
+        // System.out.print("Ingrese primer numero entero: ");
+        // int numero3 = teclado.nextInt();
+        // teclado.nextLine();
+        // boolean bandera = false;
 
-        if(numero1 == numero2 && numero1 > numero3){
-            if (numero1 > 0) {
-                System.out.printf("los numeros %d y %d son positivo y los mayores", numero1, numero2);
-                System.out.println("");
-            } else if (numero1 < 0) {
-                System.out.printf("los numeros %d y %d son negativos y los mayores", numero1, numero2);
-                System.out.println("");
-            } else {
-                System.out.printf("los numeros %d y %d son los dos mayores", numero1, numero2);
-                System.out.println("");
-            }
-        }
+        // if(numero1 == numero2 && numero1 > numero3){
+        //     if (numero1 > 0) {
+        //         System.out.printf("los numeros %d y %d son positivo y los mayores", numero1, numero2);
+        //         System.out.println("");
+        //     } else if (numero1 < 0) {
+        //         System.out.printf("los numeros %d y %d son negativos y los mayores", numero1, numero2);
+        //         System.out.println("");
+        //     } else {
+        //         System.out.printf("los numeros %d y %d son los dos mayores", numero1, numero2);
+        //         System.out.println("");
+        //     }
+        // }
 
         
-        if(numero1 == numero2 && numero1 > numero3){
-            bandera = true;
-            if (numero1 > 0) {
-                System.out.printf("los numeros %d y %d son positivo y los mayores", numero1, numero2);
-                System.out.println("");
-            } else if (numero1 < 0) {
-                System.out.printf("los numeros %d y %d son negativos y los mayores", numero1, numero2);
-                System.out.println("");
-            } else {
-                System.out.printf("los numeros %d y %d son los dos mayores", numero1, numero2);
-                System.out.println("");
-            }
-        }
-        if(numero2 == numero3 && numero2 > numero1){
-            bandera = true;
-            if (numero1 > 0) {
-                System.out.printf("los numeros %d y %d son positivo y los mayores", numero3, numero2);
-                System.out.println("");
-            } else if (numero1 < 0) {
-                System.out.printf("los numeros %d y %d son negativos y los mayores", numero3, numero2);
-                System.out.println("");
-            } else {
-                System.out.printf("los numeros %d y %d son los dos mayores", numero3, numero2);
-                System.out.println("");
-            }
-        }
-        if(numero1 == numero3 && numero1 > numero2){
-            bandera = true;
-            if (numero1 > 0) {
-                System.out.printf("los numeros %d y %d son positivo y los mayores", numero3, numero1);
-                System.out.println("");
-            } else if (numero1 < 0) {
-                System.out.printf("los numeros %d y %d son negativos y los mayores", numero3, numero1);
-                System.out.println("");
-            } else {
-                System.out.printf("los numeros %d y %d son los dos mayores", numero3, numero1);
-                System.out.println("");
-            }
-        }
+        // if(numero1 == numero2 && numero1 > numero3){
+        //     bandera = true;
+        //     if (numero1 > 0) {
+        //         System.out.printf("los numeros %d y %d son positivo y los mayores", numero1, numero2);
+        //         System.out.println("");
+        //     } else if (numero1 < 0) {
+        //         System.out.printf("los numeros %d y %d son negativos y los mayores", numero1, numero2);
+        //         System.out.println("");
+        //     } else {
+        //         System.out.printf("los numeros %d y %d son los dos mayores", numero1, numero2);
+        //         System.out.println("");
+        //     }
+        // }
+        // if(numero2 == numero3 && numero2 > numero1){
+        //     bandera = true;
+        //     if (numero1 > 0) {
+        //         System.out.printf("los numeros %d y %d son positivo y los mayores", numero3, numero2);
+        //         System.out.println("");
+        //     } else if (numero1 < 0) {
+        //         System.out.printf("los numeros %d y %d son negativos y los mayores", numero3, numero2);
+        //         System.out.println("");
+        //     } else {
+        //         System.out.printf("los numeros %d y %d son los dos mayores", numero3, numero2);
+        //         System.out.println("");
+        //     }
+        // }
+        // if(numero1 == numero3 && numero1 > numero2){
+        //     bandera = true;
+        //     if (numero1 > 0) {
+        //         System.out.printf("los numeros %d y %d son positivo y los mayores", numero3, numero1);
+        //         System.out.println("");
+        //     } else if (numero1 < 0) {
+        //         System.out.printf("los numeros %d y %d son negativos y los mayores", numero3, numero1);
+        //         System.out.println("");
+        //     } else {
+        //         System.out.printf("los numeros %d y %d son los dos mayores", numero3, numero1);
+        //         System.out.println("");
+        //     }
+        // }
 
 
 
 
 
 
-        if (numero1 > numero2 && numero1 > numero3 && !bandera) {
-            if (numero1 > 0) {
-                System.out.printf("El numero %d es positivo y el mayor de los 3", numero1);
-                System.out.println("");
-            } else if (numero1 < 0) {
-                System.out.printf("El numero %d es mayor negativo y el mayot de los 3", numero1);
-                System.out.println("");
-            } else {
-                System.out.printf("El numero %d es el mayor de los 3", numero1);
-                System.out.println("");
-            }
+        // if (numero1 > numero2 && numero1 > numero3 && !bandera) {
+        //     if (numero1 > 0) {
+        //         System.out.printf("El numero %d es positivo y el mayor de los 3", numero1);
+        //         System.out.println("");
+        //     } else if (numero1 < 0) {
+        //         System.out.printf("El numero %d es mayor negativo y el mayot de los 3", numero1);
+        //         System.out.println("");
+        //     } else {
+        //         System.out.printf("El numero %d es el mayor de los 3", numero1);
+        //         System.out.println("");
+        //     }
 
-        }
-        if (numero2 > numero1 && numero2 > numero3 && !bandera) {
-            if (numero1 > 0) {
-                System.out.printf("El numero %d es positivo y el mayor de los 3", numero2);
-                System.out.println("");
+        // }
+        // if (numero2 > numero1 && numero2 > numero3 && !bandera) {
+        //     if (numero1 > 0) {
+        //         System.out.printf("El numero %d es positivo y el mayor de los 3", numero2);
+        //         System.out.println("");
                 
-            } else if (numero1 < 0) {
-                System.out.printf("El numero %d es mayor negativo y el mayot de los 3", numero2);
-                System.out.println("");
-            } else {
-                System.out.printf("El numero %d es el mayor de los 3", numero2);
-            }
+        //     } else if (numero1 < 0) {
+        //         System.out.printf("El numero %d es mayor negativo y el mayot de los 3", numero2);
+        //         System.out.println("");
+        //     } else {
+        //         System.out.printf("El numero %d es el mayor de los 3", numero2);
+        //     }
 
-        }
-        if (numero3 > numero1 && numero3 > numero2 && !bandera) {
-            if (numero1 > 0) {
-                System.out.printf("El numero %d es positivo y el mayor de los 3", numero3);
-                System.out.println("");
-            } else if (numero1 < 0) {
-                System.out.printf("El numero %d es mayor negativo y el mayot de los 3", numero3);
-                System.out.println("");
-            } else {
-                System.out.printf("El numero %d es el mayor de los 3", numero3);
-            }
+        // }
+        // if (numero3 > numero1 && numero3 > numero2 && !bandera) {
+        //     if (numero1 > 0) {
+        //         System.out.printf("El numero %d es positivo y el mayor de los 3", numero3);
+        //         System.out.println("");
+        //     } else if (numero1 < 0) {
+        //         System.out.printf("El numero %d es mayor negativo y el mayot de los 3", numero3);
+        //         System.out.println("");
+        //     } else {
+        //         System.out.printf("El numero %d es el mayor de los 3", numero3);
+        //     }
 
-        }
+        // }
+
+        
 
         /*
          * 4. Switch
@@ -178,12 +179,63 @@ public class Ejercicios2 {
          * muestra un mensaje de error.
          */
 
+        //  String mensaje = """
+        //          Ingrese un numero del 1 al 7:
+        //          1) Lunes,          
+        //          2) Martes,        
+        //          3) Miercoles,          
+        //          4) Jueves,         
+        //          5) Viernes,         
+        //          6) Sabado,    
+        //          7) Domingo,    
+        //          """;
+        // System.out.println(mensaje);
+        // int opcion = teclado.nextInt();
+        // teclado.nextLine();
+
+        // switch (opcion) {
+        //     case 1:
+        //         System.out.println("Lunes");
+        //         break;  
+        //     case 2:
+        //         System.out.println("Martes");
+        //         break;
+        //     case 3:
+        //         System.out.println("Miercoles");   
+        //         break;    
+        //     case 4:
+        //         System.out.println("Jueves");
+        //         break;
+        //     case 5:
+        //         System.out.println("Viernes");
+        //         break;
+        //     case 6:
+        //         System.out.println("Sabado");
+        //         break;
+        //     case 7:
+        //         System.out.println("Domingo");
+        //         break;
+        //     default:
+        //         System.out.println("ERROR! Opcion no correcta! ");
+        //         break;
+        // }
+
+
         /*
          * 5. Ciclo while
          * Escribe un programa que siga pidiendo números al usuario hasta que el número
          * introducido sea 0.
          * Al finalizar, muestra la suma de todos los números introducidos.
          */
+
+         
+        //  int numeroEjCinco = 1;
+        //  while(numeroEjCinco != 0){
+        //     System.out.print("Ingrese un numero entero: ");
+        //     numeroEjCinco = teclado.nextInt();
+        //      teclado.nextLine();
+        // }
+
 
         /*
          * 6. Ciclo do while
@@ -192,6 +244,21 @@ public class Ejercicios2 {
          * la contraseña de nuevo hasta que sea correcta. La contraseña correcta es
          * "java123".
          */
+
+         
+         boolean flag = true;
+         do{
+            System.out.println("Ingrese la contraseña");
+            String password = teclado.nextLine();
+            if(password.equals("java123")){
+                System.out.println("Contraseña correcta!");
+                flag = false;
+            }else{
+                System.out.println("la contraseña ingresada es incorrecta");
+            }
+
+         }while(flag);
+
 
         /*
          * 7. Ciclo for
@@ -220,6 +287,6 @@ public class Ejercicios2 {
          * todos sus elementos.
          */
 
-        teclado.close();
+        // teclado.close();
     }
 }
