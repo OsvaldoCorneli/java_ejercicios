@@ -179,46 +179,46 @@ public class Ejercicios2 {
          * muestra un mensaje de error.
          */
 
-        //  String mensaje = """
-        //          Ingrese un numero del 1 al 7:
-        //          1) Lunes,          
-        //          2) Martes,        
-        //          3) Miercoles,          
-        //          4) Jueves,         
-        //          5) Viernes,         
-        //          6) Sabado,    
-        //          7) Domingo,    
-        //          """;
-        // System.out.println(mensaje);
-        // int opcion = teclado.nextInt();
-        // teclado.nextLine();
+         String mensaje = """
+                 Ingrese un numero del 1 al 7:
+                 1) Lunes,          
+                 2) Martes,        
+                 3) Miercoles,          
+                 4) Jueves,         
+                 5) Viernes,         
+                 6) Sabado,    
+                 7) Domingo,    
+                 """;
+        System.out.println(mensaje);
+        int opcion = teclado.nextInt();
+        teclado.nextLine();
 
-        // switch (opcion) {
-        //     case 1:
-        //         System.out.println("Lunes");
-        //         break;  
-        //     case 2:
-        //         System.out.println("Martes");
-        //         break;
-        //     case 3:
-        //         System.out.println("Miercoles");   
-        //         break;    
-        //     case 4:
-        //         System.out.println("Jueves");
-        //         break;
-        //     case 5:
-        //         System.out.println("Viernes");
-        //         break;
-        //     case 6:
-        //         System.out.println("Sabado");
-        //         break;
-        //     case 7:
-        //         System.out.println("Domingo");
-        //         break;
-        //     default:
-        //         System.out.println("ERROR! Opcion no correcta! ");
-        //         break;
-        // }
+        switch (opcion) {
+            case 1:
+                System.out.println("Lunes");
+                break;  
+            case 2:
+                System.out.println("Martes");
+                break;
+            case 3:
+                System.out.println("Miercoles");   
+                break;    
+            case 4:
+                System.out.println("Jueves");
+                break;
+            case 5:
+                System.out.println("Viernes");
+                break;
+            case 6:
+                System.out.println("Sabado");
+                break;
+            case 7:
+                System.out.println("Domingo");
+                break;
+            default:
+                System.out.println("ERROR! Opcion no correcta! ");
+                break;
+        }
 
 
         /*
@@ -229,12 +229,12 @@ public class Ejercicios2 {
          */
 
          
-        //  int numeroEjCinco = 1;
-        //  while(numeroEjCinco != 0){
-        //     System.out.print("Ingrese un numero entero: ");
-        //     numeroEjCinco = teclado.nextInt();
-        //      teclado.nextLine();
-        // }
+         int numeroEjCinco = 1;
+         while(numeroEjCinco != 0){
+            System.out.print("Ingrese un numero entero: ");
+            numeroEjCinco = teclado.nextInt();
+             teclado.nextLine();
+        }
 
 
         /*
