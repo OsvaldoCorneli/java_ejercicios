@@ -1,10 +1,10 @@
-import java.util.Scanner;
-import java.util.concurrent.ThreadLocalRandom;
+// import java.util.Scanner;
+// import java.util.concurrent.ThreadLocalRandom;
 
 public class CombinadosM2alM4 {
 
   public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+        // Scanner teclado = new Scanner(System.in);
 
     /*
      * Ejercicios Combinados

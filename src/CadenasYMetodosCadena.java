@@ -83,7 +83,7 @@ System.out.println(cadena1.concat(" ").concat(cadena2));
 
 System.out.println(cadena1 + " " +cadena2);
 
-
+teclado.close();
 }
-    
+   ;
 }
