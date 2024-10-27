@@ -1,12 +1,5 @@
 /*
  
-
-Clases anidadas
-Crea una clase Banco que contenga una clase Cuenta. La clase Cuenta debe tener 
-atributos saldo y titular y métodos para depositar y retirar dinero. 
-La clase Banco debe contener una lista de cuentas 
-y un método agregarCuenta(Cuenta cuenta) para añadir cuentas al banco.
-
 Herencia y super
 Crea una clase Animal con un método hacerSonido(). 
 Luego, crea una clase Perro que herede de Animal y sobreescriba el método hacerSonido()
@@ -26,24 +19,21 @@ public class Principal {
     
     public static void main(String[] args){
 
-        Contador contador = new Contador();
-        Contador contador2 = new Contador();
-        Contador contador3 = new Contador();
-        Contador contador4 = new Contador();
-        Contador contador5 = new Contador();
+        Banco cuentaBanco = new Banco();
+
+        Banco.Cuenta cuenta1 = cuentaBanco.new Cuenta(2444, "osvaldo");
+
+        cuentaBanco.agregarCuenta(cuenta1);
+
+        cuenta1.depositarDinero(556);
+
+        cuenta1.retirarDinero(2999);
         
         
-        int total = contador.total;
 
-        System.out.println(total);
 
-        Contador contador6 = new Contador();
-        Contador contador7 = new Contador();
-        Contador contador8 = new Contador();
-        Contador contador9 = new Contador();
-        Contador contador10 = new Contador();
 
-        System.out.println("El contador final es "+ contador.total);
+
     }
 
 
