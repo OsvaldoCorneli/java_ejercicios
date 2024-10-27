@@ -25,7 +25,7 @@
 
         }
 
-        public float calcularPerímetro(){
+        public float calcularPerimetro(){
 
             return base+base+altura+altura;
 
